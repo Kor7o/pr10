@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0% 0% 5%;
+  width: 86%;
+}
+
+header nav {
+  color: #ff6060;
+  display: flex;
+}
+
+header a {
+  color: #ff6060;
+  display: flex;
+  text-decoration: none;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.Home {
+  margin: 2rem;
+  size: 1rem;
+}
+
+.About {
+  margin: 2rem;
+}
+
+@media (max-width: 376px) {
+  .logo {
+    height: 2rem;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  header nav {
+    font-size: 0.8rem;
+    width: 200px;
+    margin-left: 7%;
+  }
+  .Home {
+    margin: 1rem;
+    size: 1rem;
+  }
+
+  .About {
+    margin: 1rem;
+    size: 1rem;
+    width: 30%;
+  }
+}

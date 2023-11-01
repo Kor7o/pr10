@@ -1,0 +1,38 @@
+.banner {
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 15px;
+  position: relative;
+  text-align: center;
+}
+
+.banner_img {
+  align-self: center;
+  border-radius: 25px;
+  height: auto;
+  max-height: 225px;
+  object-fit: cover;
+  width: 86%;
+}
+
+.banner_text {
+  position: absolute;
+  top: 10%;
+  size: 48px;
+  color: #fff;
+  width: 90%;
+}
+
+.about__banner {
+  width: 100%;
+}
+
+@media (max-width: 376px) {
+  .banner_img {
+    max-height: 111px;
+    width: 95%;
+    border-radius: 10px;
+  }
+}

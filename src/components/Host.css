@@ -1,0 +1,31 @@
+.product__content__right__host__picture {
+  color: #ff6060;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+@media (max-width: 768px) {
+  .column2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .product__content__right__host {
+  }
+  .product__content__right__host__picture {
+    height: 3rem;
+    width: auto;
+    margin: 1px;
+  }
+  .product__content__right__host__name {
+    width: 5rem;
+  }
+  .product__content__right__rate {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .product__content__right__rate__icon {
+    height: 30px;
+  }
+}

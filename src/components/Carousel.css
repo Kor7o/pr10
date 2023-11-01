@@ -1,0 +1,70 @@
+.Carousel {
+  margin: auto;
+  max-width: 1080px;
+}
+
+.Carousel__list__content__cover {
+  height: 800px;
+  object-fit: cover;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.product__content__right__host__picture {
+  border-radius: 100px;
+}
+
+.product__content__right__host__name__firstname {
+  color: #ff6060;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.Carousel__arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 500px;
+  padding: 2%;
+}
+
+.hidden {
+  display: none;
+}
+
+.Carousel__list__content__counter {
+  color: #fff;
+  display: flex;
+  height: 15%;
+  justify-content: center;
+  position: absolute;
+  font-weight: bold;
+  margin-top: -15%;
+  margin-left: 46%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .Carousel__list__content__cover {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 95%;
+    margin: 1rem;
+  }
+
+  .Carousel__arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 150px;
+    padding: 2%;
+    margin-left: 5%;
+  }
+  .Carousel__arrow img {
+    height: 40px;
+  }
+}

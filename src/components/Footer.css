@@ -1,0 +1,31 @@
+.Footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 30px 30px;
+  background-color: #111;
+  margin: auto;
+  width: 90%;
+}
+
+.logo_footer {
+  width: 9rem;
+  margin: auto;
+}
+
+.Home {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .Footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 30px 30px;
+    background-color: #111;
+    width: 80%;
+  }
+}
